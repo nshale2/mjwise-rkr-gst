@@ -5,7 +5,7 @@ class RKRHashtable:
 
     def add(self, hash, data):
         """ Stores data for hash in a list. """
-        if self.dict.has_key(hash):
+        if self.dict.__contains__(hash):
             values = self.dict.get(hash)
             values.append(data)
             self.dict.setdefault(hash, values)

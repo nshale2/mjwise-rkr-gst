@@ -39,7 +39,7 @@ def factory():
 
     normalized_similarity = similarity/normalization
 
-    print normalized_similarity
+    print(normalized_similarity)
 
 if __name__ == '__main__':
     factory()

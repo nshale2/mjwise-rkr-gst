@@ -244,7 +244,7 @@ class LinkedList(object):
         curr_node = None
         this_node = self.root
         while this_node:
-            print '         MML : ', this_node.maximal_match_length
+            print('         MML : ', this_node.maximal_match_length)
             curr_node = this_node
             this_node = this_node.get_next()
         return curr_node
@@ -254,7 +254,7 @@ class LinkedList(object):
         curr_node = None
         this_node = self.root
         while this_node:
-            print '         MML : ', this_node.maximal_match_length
+            print('         MML : ', this_node.maximal_match_length)
             curr_node = this_node
             this_node = this_node.get_prev()
         return curr_node
